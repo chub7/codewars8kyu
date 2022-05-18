@@ -1,0 +1,5 @@
+function sumMix(x){
+  sum = 0;
+ newCollection = x.map((value) => sum += parseInt(value));
+   return sum;
+ }
