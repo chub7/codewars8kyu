@@ -1,0 +1,5 @@
+function findNeedle(haystack) {
+ const result = haystack.indexOf(`needle`);
+  
+  return 'found the needle at position' + ` ` +result;
+}
