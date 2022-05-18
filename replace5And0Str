@@ -1,0 +1,6 @@
+function fakeBin(x){
+ newStr = x.replace (/[1-4]/g, 0);
+ finalStr = newStr.replace(/[5-9]/g, 1);
+  return finalStr;
+  }
+  
