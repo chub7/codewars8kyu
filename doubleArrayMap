@@ -1,0 +1,4 @@
+function maps(x){
+
+  return doubles = x.map((num) => num * 2);
+}
