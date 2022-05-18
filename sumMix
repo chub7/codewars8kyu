@@ -3,3 +3,13 @@ function sumMix(x){
  newCollection = x.map((value) => sum += parseInt(value));
    return sum;
  }
+
+
+betterSolution 
+function sumMix(x){
+  sum = 0;
+  
+  x.forEach(element => sum += parseInt(element));
+
+   return sum;
+ }
